@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  background: #343946;
+  margin: 0 auto;
+  padding: 10px 25px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  .header-logo {
+    height: 60px;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+  }
+
+}
